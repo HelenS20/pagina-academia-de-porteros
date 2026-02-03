@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia de porteros</title>
+    <link rel="Website Icon" type="png" href="/Imagenes/logo.png">
+    <link rel="stylesheet" href="/nosotros_academia/nosotros.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Handjet&family=Josefin+Sans:wght@200&family=Poppins:wght@200&family=Taviraj:wght@100&family=Ysabeau+SC:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/d55e038903.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <header> 
+        
+        <div class="recipiente">
+            <div class="nombre">
+                <img src="/Imagenes/logo.png" alt="" class="logo">
+                <h1 class="logotipo">Academia de Porteros</h1>
+            </div>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><button class="suscribir" id="open">Suscribirse</button></li>
+                <li><a href=""><button class="live">En Vivo</button></a></li>
+                <li><a href="/login_porteros/loginadmin.html"><button class="admin">Login<i class="bi bi-person-check"></i></button></a></li>
+            </ul>
+        </div>
+
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+                <li><a href="/index.html"><i class="bi bi-house"></i>Inicio</a></li>
+                <li><a href="/nosotros_academia/nosotros.html"><i class="bi bi-fire"></i>Nosotros</a></li>
+                <li><a href="/galeria_academia/index_galery.html"><i class="bi bi-camera"></i>Galeria</a></li>
+                <li><a href="/inscripcion_academia/inscripcion.html"><i class="bi bi-calendar2-date"></i>Inscripciones</a></li>
+                <li><a href="/contacto_academia/contacto.html"><i class="bi bi-hand-thumbs-up"></i>Contacto</a></li>
+                <li class="admin0"><a href="/login_porteros/loginadmin.html"><button class="admin">Login<i class="bi bi-person-check"></i></button></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!----Ventana-Modal---->
+
+    <div id="modal_container"class="modal-container">
+        <div class="modal">
+          <h1>Suscríbete</h1>
+          <p>
+            Suscríbete con tu correo para recibir actualizaciones diarias sobre nuestra página web ver contenido que solo sean nuestras redes sociales.
+          </p>
+          <div class="enviar-sub">
+            <input type="email" name="email"  class="input-suscrip">
+            <button class="btn-enviar-suscri"><i class="bi bi-send"></i></button>
+          </div>
+          <button id="close" class="btn-cerrar-suscrip">Cerrar</button>
+        </div>
+    </div>
+
+    <!----Ventana-Modal---->
+
+
+
+    <main>
+        <div class="div1-somos">
+            <div class="titulo">
+                <h2 class="titulo-somos">Sobre Nosotros</h2>
+            </div>
+
+            <div class="somos">
+                <p>La Academia de porteros es un centro de formación especializado en la enseñanza y el perfeccionamiento de las habilidades de los porteros de fútbol. Contamos con un equipo de profesionales cualificados y con amplia experiencia en el ámbito deportivo. Nuestro objetivo es ofrecer una formación integral y personalizada a cada alumno, adaptándonos a sus necesidades y objetivos.</p>
+                <p>En la Academia de porteros podrás aprender y mejorar aspectos técnicos, tácticos, físicos y psicológicos del puesto de portero. Además, te ofrecemos la oportunidad de participar en torneos, campus, clínicas y actividades complementarias que te ayudarán a desarrollar tu potencial y a disfrutar del fútbol.</p>
+            </div>
+        </div>
+
+        
+        <div class="titulo">
+            <h2 class="titulo-ubicacion">Ubicación y horarios</h2>
+        </div>
+
+        <div class="ubicacion">
+            <p>Estamos ubicados en la calle XXX, número XX, en la ciudad de YYY. Nuestro horario de atención es de lunes a viernes de 9:00 a 18:00 y los sábados de 10:00 a 14:00.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14726.37318553868!2d-74.21890407126583!3d4.7107249276198795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f77f0ada00867%3A0x43a976bf25ba6640!2sMosquera%2C%20Cundinamarca!5e0!3m2!1ses!2sco!4v1694009252119!5m2!1ses!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+        </div>
+
+        <div class="entrenadores">
+            <div class="titulo">
+                <h2 class="titulo-entrenadores">Entrenadores</h2>
+            </div>
+
+            <div class="entrenadores-items">
+                <div class="entrenador-item">
+                    <img src="/Imagenes/entrenador1.jpg" alt="">
+                    <h3>Andres Suarez</h3>
+                    <p>Este entrenador de porteros es responsable de desarrollar las habilidades físicas y mentales del portero, así como de preparar al portero para situaciones específicas en el juego.</p>
+                </div>
+                <div class="entrenador-item">
+                    <img src="/Imagenes/entrenador2.jpg" alt="">
+                    <a href=""><h3>Ana Mendez</h3></a>
+                    <p>Este entrenador de porteros se encarga de preparar a los guardametas, tanto física como mentalmente. En la planificación a largo plazo, se ocupa de su desarrollo en tres facetas: como jugadores, porteros y personas.</p>
+                </div>
+                <div class="entrenador-item">
+                    <img src="/Imagenes/entrenador3.jpg" alt="">
+                    <a href=""><h3>Arturo Suarez</h3></a>
+                    <p>Este entrenador de porteros se encarga de preparar a los guardametas, tanto física como mentalmente. En la planificación a largo plazo, se ocupa de su desarrollo en tres facetas: como jugadores, porteros y personas.</p>
+                </div>      
+            </div>
+
+        </div>
+
+    </main>        
+
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+           
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Contamos con un equipo de profesionales cualificados y apasionados por el fútbol, que te ayudarán a desarrollar tu potencial y alcanzar tus objetivos.</p>
+            </div>
+            
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/CundeportesFunzaOficial?mibextid=ZbWKwL" class="fa fa-facebook"></a>
+                    <a href="https://instagram.com/cundeportes?igshid=MWZjMTM2ODFkZg==" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com/?lang=es" class="fa fa-twitter"></a>
+                    <a href="https://www.tiktok.com/@fabio12445_?_t=8fkd6q7v0is&_r=1" class="fa fa-brands fa-tiktok"></a>
+                </div>
+            </div>  
+            
+            <div class="box">
+                <h2>ACERCA DE</h2>
+                <a href="/nosotros_academia/nosotros.html" class="acerca">Academia</a>
+                <a href="https://www.facebook.com/CundeportesFunzaOficial?mibextid=ZbWKwL" class="acerca">Torneos</a>
+                <a href="https://www.facebook.com/CundeportesFunzaOficial?mibextid=ZbWKwL" class="acerca">Noticias</a>
+            </div> 
+
+            <div class="box">
+                <div class="Contacto">
+                    <h2>SUGERENCIAS</h2>
+                    <form action="https://formsubmit.co/aflsrm2@gmail.com" method="POST">
+                        <div class="input-group">
+                
+                            <input class="input-cont" type="email" name="email" id="email" placeholder="Su correo">
+
+                            <textarea name="message" id="message" cols="30" rows="5" placeholder="Sus sugerencias"></textarea>
+            
+                            <a href=""><button class="btn">Enviar</button></a>
+                            
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <div class="nombre2">
+                <img src="/Imagenes/logo.png" alt="" class="logo2">
+                <h1 class="logotipo2">Academia de Porteros</h1><small>© 2023 - Todos los Derechos Reservados.</small>
+            </div>
+            
+        </div>
+    </footer>
+
+	<script src="/javascript/suggestions.js"></script>
+    <script src="/javascript/script.js"></script>
+    <script src="/javascript/main.js"></script>
+    <script src="/javascript/carrusel.js"></script>
+    <script src="/javascript/ventanamodal.js"></script>
+    <script src="/nosotros_academia/nosotros.js"></script>
+</body>
+</html>
